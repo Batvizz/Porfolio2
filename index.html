@@ -96,8 +96,8 @@
             }
         </script>
 
-        <div class="container-fluid ">
-            <div class="card-columns " id="galeria2" >
+        <div class="container-sm ">
+            <div class="card-columns m-5 " id="galeria2" >
                     
                 <!--<div class="card">
                     <a href="">
@@ -114,23 +114,21 @@
                 galeria2.innerHTML+= `
                 
                 
-                <div class="card rounded-0">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"></div>
-                    </div>  
-                   
-                    <a href="" data-toggle="modal" data-target="#${imagen}">
-                        <img src="imagenes/${imagen}.jpg" class="card-img-top rounded-0 " alt="...">
-                    </a>
-                </div>
-
-                
-                <!-- Modal -->
-                <div class="modal fade" id="${imagen}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-dialog-center">
-                        <img src="imagenes/${imagen}.jpg" class="img-fluid rounded-0 " alt="...">
+                <div class="row m-2"
+                    <div class="card  rounded-0">
+                        
+                        <a href="" data-toggle="modal" data-target="#${imagen}">
+                            <img src="imagenes/${imagen}.jpg" class="img-fluid rounded-0 " alt="...">
+                        </a>
                     </div>
                 </div>
+                    <!-- Modal -->
+                    <div class="portfolio-modal modal fade" id="${imagen}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-center">
+                            <img src="imagenes/${imagen}.jpg" class="img-fluid rounded-0 " alt="...">
+                        </div>
+                    </div>
+                    
                 `  
             }
         </script>
