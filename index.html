@@ -51,7 +51,7 @@
         </div>
         
         <!-------------------------------------------------Navigation--------------------------------------------->
-        <nav class="navbar navbar-expand-sm bg-body3 text-uppercase  border-bottom border-top border-dark" id="mainNav">
+        <nav class="navbar navbar-expand-sm bg-body3 text-uppercase " id="mainNav">
             <div class="container">
                 <!--<a  class="navbar-brand js-scroll-trigger ml-auto me-auto mt-auto mb-auto  bi bi-brush text-dark"  href="#page-top"><spam class="ml-2">Studio Omoi</spam></a>-->
                 <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +60,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto me-auto mt-auto mb-auto text-dark">
-                        <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3  rounded js-scroll-trigger text-dark" href="#categoria1">Artwork</a></li> 
+                        <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3  rounded js-scroll-trigger text-dark" href="#categoria1">Home</a></li>
+                        <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3  rounded js-scroll-trigger text-dark" href="#categoria1">Ilustration</a></li> 
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3  px-lg-3 rounded js-scroll-trigger text-dark " href="#videos">2D Animation</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3  px-lg-3 rounded js-scroll-trigger bi bi-bookmark-heart text-dark " href="#about"><spam class="ml-2">About me</spam></a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3  px-lg-3 rounded js-scroll-trigger text-dark" href="mailto:by.omoi0@gmail4.com" target="_blank"><em class="fas fa-envelope "></em><spam class="ml-2">Contact</spam></a></li>
@@ -73,15 +74,16 @@
         </nav>
 
 
-        <div class="container"id="mosaico">
-            <div class="card-columns">
-                <div class="card">
+        <div class="container-fluid ">
+            <div class="card-columns  mt-3 ms-5 me-5" id="galeria" >
+                
+                <!--<div class="card">
                     <a href="">
-                        <img src="imagenes/imagen1.jpg" class="card-img-top " alt="...">
+                        <img src="imagenes/1.jpg" class="card-img-top " alt="...">
                     </a>
-                </div>
+                </div>-->
             </div>
-        </div>      
+        </div>
 
         <!----------------------------------------------------------Seccion de Galeria --------------------------------------------------------------->
         <section class="page-section portfolio " id="portfolio">
@@ -90,17 +92,21 @@
         </section>
 
         <script>
-            var imagenes = [imagen1.jpg,imagen2.jpg,imagen3.jpg,imagen4.jpg];
-            var galeria = document.getElementById('mosaico');
+            var imagenes = [1,2,3,4];
+            var galeria=document.getElementById('galeria');
             for(imagen of imagenes){
-                galeria.innerHTML += 
-                `<div class="card-columns">
-                    <div class="card">
-                        <a href="">
-                            <img src="imagenes/imagen1.jpg" class="card-img-top " alt="...">
-                        </a>
-                    </div>
-                </div>`
+                galeria.innerHTML+= `
+                
+                <div class="card rounded-0 ms-0 me-0">
+                    <a href="" >
+                        <img src="imagenes/${imagen}.jpg" class="card-img-top rounded-0 " alt="...">
+                    </a>
+                </div>
+                
+               
+                `
+                
+                
             }
 
             
