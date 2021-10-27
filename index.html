@@ -90,16 +90,17 @@
         </section>
 
         <script>
-            var imagenes = [imagen1.jpg,imagen1.jpg,imagen1.jpg,imagen1.jpg];
+            var imagenes = [imagen1.jpg,imagen2.jpg,imagen3.jpg,imagen4.jpg];
             var galeria = document.getElementById('mosaico');
             for(imagen of imagenes){
-                galeria.innerHTML += `<div class="card-columns">
-                <div class="card">
-                    <a href="">
-                        <img src="imagenes/imagen1.jpg" class="card-img-top " alt="...">
-                    </a>
-                </div>
-            </div>`
+                galeria.innerHTML += 
+                `<div class="card-columns">
+                    <div class="card">
+                        <a href="">
+                            <img src="imagenes/imagen1.jpg" class="card-img-top " alt="...">
+                        </a>
+                    </div>
+                </div>`
             }
 
             
