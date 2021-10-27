@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #478868;
   text-decoration: none;
   background-color: transparent;
 }
@@ -6299,7 +6299,9 @@ button.bg-light:focus {
 .bg-grey{
   background-color:lightgray
 }
-
+.bg-link{
+  background-color: #478868;
+}
 .bg-purple{
   background-color:#6610f2;
 }
