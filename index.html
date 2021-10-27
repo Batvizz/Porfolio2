@@ -52,8 +52,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto me-auto mt-auto mb-auto text-dark">
-                        <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3  rounded js-scroll-trigger text-dark" href="#categoria1">Home</a></li>
-                        <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3  rounded js-scroll-trigger text-dark" href="#categoria1">Ilustration</a></li>
+                        <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3  rounded js-scroll-trigger text-dark" href="index.html">Home</a></li>
+                        <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3  rounded js-scroll-trigger text-dark" href="ilustration.html">Ilustration</a></li>
                         <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3  rounded js-scroll-trigger text-dark" href="#categoria1">Character Design</a></li> 
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3  px-lg-3 rounded js-scroll-trigger text-dark " href="#videos">2D Animation</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3  px-lg-3 rounded js-scroll-trigger bi bi-bookmark-heart text-dark " href="#about"><spam class="ml-2">About me</spam></a></li>
@@ -78,9 +78,6 @@
             </div>
         </div>
 
-        
-        
-
         <script>
             var imagenes = [1,2,3,4];
             var galeria=document.getElementById('galeria');
@@ -95,119 +92,32 @@
                 `  
             }
         </script>
-
-        <div class="container-sm ">
-            <div class="card-columns m-5 " id="galeria2" >
-                    
-                <!--<div class="card">
-                    <a href="">
-                        <img src="imagenes/1.jpg" class="card-img-top " alt="...">
-                    </a>
-                </div>-->
-            </div>
-        </div>
-<a href=""></a>
-        <script>
-            var imagenes = ["imagen1","imagen2","imagen3","imagen4","imagen5","imagen6"];
-            var galeria2=document.getElementById('galeria2');
-            for(imagen of imagenes){
-                galeria2.innerHTML+= `
-                
-                
-                <div class="row m-2"
-                    <div class="card  rounded-0">
-                        
-                        <a href="" data-toggle="modal" data-target="#${imagen}">
-                            <img src="imagenes/${imagen}.jpg" class="img-fluid rounded-0 " alt="...">
-                        </a>
-                    </div>
-                </div>
-                    <!-- Modal -->
-                    <div class="portfolio-modal modal fade" id="${imagen}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg modal-dialog-center">
-                            <img src="imagenes/${imagen}.jpg" class="img-fluid rounded-0 " alt="...">
-                        </div>
-                    </div>
-                    
-                `  
-            }
-        </script>
         
-
-        <!--<div  class="page-section portfolio" id="portfolio">
-            <div class="container-fluid my-5">
-                <------------------------------------------------Portfolio Section Heading---------------------------------------------------------
-                <h2 class="page-section-heading text-center text-uppercase text-secondary  mb-0 mt-5 "id="categoria1">Artwork</h2>
-                <-----------------------------------------------------Icon Divider------------------------------------------------------------------
-                <div class="divider-custom ">
-                    <div class="divider-custom-line "></div><div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon "><em class="me-4 ms-4 fas fa-star"></em></div>
-                    <div class="divider-custom-line "></div><div class="divider-custom-line"></div>
-                </div>
-                <--------------------------------------------------Portfolio Grid Items-----------------------------------------------------
-                <div class="row justify-content-center">
-                    <------------------------------------------------Portfolio Item 1-------------------------------------------------------
-                    
-                    <div class="col-lg-3 ">
-                        <div class="portfolio-item   rounded-0 ms-4  " data-toggle="modal" data-target="#portfolioModal1" >
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"></div>
-                            </div>
-                            <img class="img-fluid  " loading="lazy" src="imagenes/imagen1.jpg" alt="jpg"/>
-                        </div>
-                    </div>
-    
-                    <div class="col-lg-3 ">
-                        <div class="portfolio-item mx-auto  rounded-0 " data-toggle="modal" data-target="#portfolioModal3" >
-                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                    <div class="portfolio-item-caption-content text-center text-white"></div>
-                                </div>
-                                <img class="img-fluid " loading="lazy" src="imagenes/Imagen3.jpg" alt="jpg"/>
-                        </div>
-                    </div> 
-
-                  <div class="col-lg-3 ">
-                        <div class="portfolio-item mx-auto  rounded-0 " data-toggle="modal" data-target="#portfolioModal12" >
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"></div>
-                            </div>
-                            <img class="img-fluid " loading="lazy" src="imagenes/portada2.jpg" alt="jpg"/>
-                        </div>
-                    </div>
-
-                  <div class="col-lg-3 ">
-                        <div class="portfolio-item  me-4  rounded-0" data-toggle="modal" data-target="#portfolioModal8" >
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"></div>
-                            </div>
-                            <img class="img-fluid  " loading="lazy" src="imagenes/imagen8.jpg" alt="jpg"/>
-                        </div>
-                       
-                    </div>
-                </div>    
-            </div>
-        </div>-->
-
-        <!----------------------------------------------------------Contenedor Video ----------------------------------------------------------------->
-        
-        <div class="page-section portfolio mt-5 mb-5 " >
-
-            <h2 id="videos" class="page-section-heading text-center text-uppercase text-secondary animate__animated animate__pulse js-scroll-trigger">2D Animation</h2>
-              <div> 
-                <div class="divider-custom mt-0">
-                    <div class="divider-custom-line "></div><div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon "><em class="me-4 ms-4 fas fa-star"></em></div>
-                    <div class="divider-custom-line "></div><div class="divider-custom-line"></div>
-                </div>
-              <div>
-            <div style="position: relative; padding-bottom: 35.25%; height: 0; overflow: hidden;"class="text-uppercase text-center ">
+       
+       
+       <div class="row m-5" id="videos">
+           <div class="col-xl-6">
+            <div style="position: relative; padding-bottom: 35.25%; height: 0; overflow: hidden;"class="text-uppercase text-center mt-5 ">
                 
                 <iframe style="position:absolute; top: 0; left: 0; width:100%; height: 100%;" src="https://www.youtube.com/embed/QGf4HyhDby0"frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                                                                                                                                                                                           
             </div>
+           </div>
+           
+           <div class="col-xl-6">
+            <div style="position: relative; padding-bottom: 35.25%; height: 0; overflow: hidden;"class="text-uppercase text-center mt-5 ">
+                
+                <iframe style="position:absolute; top: 0; left: 0; width:100%; height: 100%;" src="https://www.youtube.com/embed/QGf4HyhDby0"frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                                                                                                                                                                          
+            </div>
+            </div>   
+
         </div>
 
-    
+       </div>
+       
+
+
         <!-----------------------------------------------------Contenedor About--------------------------------------------------------------------->
         <h2 class="page-section-heading text-center text-uppercase text-secondary mt-5 "id="categoria1">About me</h2>
          <div class="divider-custom">
@@ -215,8 +125,7 @@
              <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
              <div class="divider-custom-line"></div>
          </div>
- 
- 
+
          <div class=" container-fluid bg-dark mt-5" id="about" >
              <div class="row">
                  <div class="col-md-2 pt-5">
