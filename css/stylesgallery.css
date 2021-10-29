@@ -12,12 +12,4 @@
 .galerry-item:nth-child(1){
     grid-row-start: span 2;
 }
-.galerry-item:nth-child(5){
-    grid-column-start: span 2;
-}
-.galerry-item:nth-child(8){
-    grid-column-start: span 2;
-}
-.galerry-item:nth-child(6){
-    grid-row-start: span 2;
-}
+
