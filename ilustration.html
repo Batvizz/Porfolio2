@@ -65,9 +65,9 @@
 
     
 
-    <div class="container-fluid mb-5">
+    <div class="container-fluid mb-5 gallery">
         <div class="row  m-5">
-           <div class="container">   
+           <div class="container ">   
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -75,7 +75,7 @@
                         
                     </div>
                     <div class="carousel-item">
-                        <img src="imagenes/carrousel3.jpg" class="d-block w-100" alt="...">
+                        <img src="imagenes/carrousel3.jpg" class="d-block w-100 " alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="imagenes/carrousel1.jpg" class="d-block w-100" alt="...">
@@ -162,55 +162,26 @@
                     <img class="img-fluid m-2" src="imagenes/imagen6.jpg" alt="">
                 </a>
             </div>
-            <div class="col-lg-3 ">
-                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalimage13">
-                    <img class="img-fluid m-2" src="imagenes/mundo.gif" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 ">
-                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalimage13">
-                    <img class="img-fluid m-2" src="imagenes/mundo.gif" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 ">
-                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalimage13">
-                    <img class="img-fluid m-2" src="imagenes/mundo.gif" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 ">
-                <a href="#!" data-bs-toggle="modal" data-bs-target="#modalimage13">
-                    <img class="img-fluid m-2" src="imagenes/mundo.gif" alt="">
-                </a>
-            </div>
+           
         </div>
     </div>
 
-    <!---MODAL GALERIA -->
-    <div tabindex="-1" aria-labelledby="modalimage1" arial-hidden="true" class="modal fade"   id="modalimage1">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-                <img class="img-fluid  m-2" src="imagenes/imagen1.jpg" alt="">
-            </div>
-
-        </div>
-    </div>
-    <div class="modal" tabindex="-1" id="modalimage1">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
-              <img class="img-fluid  m-2" src="imagenes/imagen1.jpg" alt="">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
+    
+   
+   <!-- Modal -->
+   <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-dialog-centered modal-lg">
+       <div class="modal-content">
+         <div class="modal-header">
+           <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+            <img src="imagenes/imagen1.jpg" class="gallery-item" alt="gallery">
+         </div>
+       </div>
+     </div>
+   </div>
     <!------------------>
 
 

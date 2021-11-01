@@ -4773,7 +4773,23 @@ input[type=button].btn-block {
   border-top-right-radius: 0.75rem;
   border-bottom-right-radius: 0.75rem;
 }
-
+mg{
+	max-width: 100%;
+}
+.gallery{
+	background-color:  #f4ede4;
+	padding: 0px 0;
+}
+.gallery img{
+	background-color: #cfcac3cb;
+	padding: 5px;
+	width: 100%;
+	
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
