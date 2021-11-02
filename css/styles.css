@@ -557,6 +557,10 @@ pre code {
 .zoom2:hover{
   transform: scale(105%);
 }
+.zoom3{
+  transition: 0.5s ease;
+  
+}
 .zoom3:hover{
   transform: scale(101%);
 }
