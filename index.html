@@ -37,10 +37,7 @@
         
     
         <!------------------------------------------------Cabezera Principal--------------------------------------------------------------------->
-        <div  class="container-fluid bg-dark masthead text-dark text-center fondoinicio-background">
-           
-               
-        </div>
+        <div  class="container-fluid bg-dark masthead text-dark text-center fondoinicio-background"></div>
         
         <!-------------------------------------------------Navigation--------------------------------------------->
         <nav class="navbar navbar-expand-sm bg-body3 text-uppercase border-top border-dark" id="mainNav">
@@ -68,24 +65,32 @@
         <div class="container-fluid ">
             <div class="card-columns portfolio-item-caption mt-3 ms-5 me-5 " id="galeria" >
                 
-                <div class="card  rounded-0 ms-0 me-0 border-0 bg-image hover-overlay"data-ripple-color="dark">
+                <div class="card  rounded-0 ms-0 me-0 border-0 container2"data-ripple-color="dark">
                     <a href="ilustration.html">
-                        <img loading="lazy" src="imagenes/1.jpg" class="card-img-top rounded-0 " alt="...">
+                        <img loading="lazy" src="imagenes/1.jpg" class="card-img-top rounded-0 image2 " alt="...">
+                            <div class="overlay2">
+                                <div class="text2">Ilustration</div>
+                            </div>       
                     </a>
                 </div>
-                <div class="card  rounded-0 ms-0 me-0 border-0">
-                    <a href="animation.html" >
-                        <img loading="lazy" src="imagenes/2.jpg" class="card-img-top rounded-0 " alt="...">
+                <div class="card  rounded-0 ms-0 me-0 border-0 container2 "data-ripple-color="dark">
+                    <a href="#!" data-bs-toggle="modal" data-bs-target="#modalimage2">
+                        <img loading="lazy" src="imagenes/3.jpg" class="card-img-top rounded-0 image2 gallery-item " alt="...">
+                               
                     </a>
                 </div>
-                <div class="card  rounded-0 ms-0 me-0 border-0">
-                    <a href="character.html" class="mask" style="background-color: rgba(0, 0, 0, 0.623);" >
-                        <img loading="lazy" src="imagenes/3.jpg" class="card-img-top rounded-0 " alt="...">
+                <div class="card  rounded-0 ms-0 me-0 border-0 container2"data-ripple-color="dark">
+                    <a href="more.html">
+                        <img loading="lazy" src="imagenes/2.jpg" class="card-img-top rounded-0 image2  " alt="...">
+                            <div class="overlay2">
+                                <div class="text2">More+</div>
+                            </div>       
                     </a>
                 </div>
-                <div class="card  rounded-0 ms-0 me-0 border-0">
-                    <a href="more.html" >
-                        <img loading="lazy" src="imagenes/4.jpg" class="card-img-top rounded-0 " alt="...">
+                <div class="card  rounded-0 ms-0 me-0 border-0 container2"data-ripple-color="dark">
+                    <a href="#!" data-bs-toggle="modal" data-bs-target="#modalimage4">
+                        <img loading="lazy" src="imagenes/4.jpg" class="card-img-top rounded-0 image2 gallerry-item " alt="...">
+                               
                     </a>
                 </div>
             </div>
@@ -130,6 +135,27 @@
                 </div>
             </div>
         </div>
+         <!-- Modal 1 -->
+            <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <img loading="lazy" src="imagenes/4.jpg" class="card-img-top rounded-0 image2 modal-img " alt="...">
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        <!-- Modal 2 -->
+            <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <img loading="lazy" class="img-fluid  m-2 modal-img" src="imagenes/5.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
 
 
         <div class=" container-fluid bg-body3 mt-5 mb-5 border-top border-bottom border-dark" id="about" >
@@ -201,6 +227,8 @@
 
         
         <!-- Bootstrap core JS-->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
