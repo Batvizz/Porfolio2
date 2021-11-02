@@ -4776,6 +4776,7 @@ mg{
 }
 .gallery img{
 	background-color: #cfcac3cb;
+  
 	padding: 5px;
 	width: 100%;
 	
@@ -4809,7 +4810,8 @@ mg{
 }
 
 .text2 {
-  color: #478868;
+  color: #f0f0f0;
+  /*#478868*/
   font-size: 50px;
   position: absolute;
   top: 50%;
