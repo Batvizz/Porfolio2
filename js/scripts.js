@@ -73,5 +73,16 @@
             $(this).removeClass("floating-label-form-group-with-focus");
         });
     });
-
+    $(document).ready(function()
+    {
+        $('img').bind('contextmenu', function(e){
+            return false;
+        }); 
+    });
+    $(document).ready(function()
+    {
+        $('video').bind('contextmenu', function(e){
+            return false;
+        }); 
+    });
 })(jQuery); // End of use strict
