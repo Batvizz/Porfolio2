@@ -6369,6 +6369,9 @@ button.bg-light:focus {
 .bg-body2{
   background-color: #f4ede4;
 }
+.bg-bodycarousel{
+  background-color:rgba(255, 255, 255, 0.1);
+}
 
 
 a.bg-dark:hover, a.bg-dark:focus,
