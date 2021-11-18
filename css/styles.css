@@ -190,7 +190,9 @@ img {
   vertical-align: middle;
   border-style: none;
 }
-
+.img-2{
+  object-fit: cover;
+}
 svg {
   overflow: hidden;
   vertical-align: middle;
