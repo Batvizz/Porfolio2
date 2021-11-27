@@ -4777,11 +4777,11 @@ mg{
 	max-width: 100%;
 }
 .gallery{
-	background-color:  #f4ede4;
+	
 	padding: 0px 0;
 }
 .gallery img{
-	background-color: #cfcac3cb;
+	
   
 	padding: 5px;
 	width: 100%;
@@ -10403,13 +10403,12 @@ h3 {
   
 
   transition: all 0.2s ease-in-out;
-  background-color: rgba(10, 10, 10, 0.952);
+  
 }
 .item-caption:hover {
   
   opacity: 1 ;
   
-  background-color: rgba(10, 10, 10, 0.884);
 }
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
